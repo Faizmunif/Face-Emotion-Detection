@@ -4,18 +4,18 @@ Code ini adalah program Capture Image OpenCV yang dapat mengklasifikasi ekspresi
 
 # Cara Menjalankan Code
 ## 1. Install library yang diperlukan
-   - OpenCV pip install opencv-python
+   - OpenCV `pip install opencv-python`
 
-   + Numpy pip install numpy
+   + Numpy `pip install numpy`
 
-   * Scikit-Image pip install scikit-image
+   * Scikit-Image `pip install scikit-image`
 
-   - Joblib pip install joblib
+   - Joblib `pip install joblib`
 
 Jalankan Command diatas pada cmd/powershell
 
 ## 2. Jalankan Code utama
-setelah semua library berhasil di install, buka file code dengan nama AI_Visual.py menggunakan VSCode lalu klik tombol run.
+setelah semua library berhasil di install, buka file code dengan nama `AI_Visual.py` menggunakan VSCode lalu klik tombol run.
 
 ## 3. Penggunaan
 Setelah file berhasil dijalankan, akan muncul windows yang akan langsung membuka kamera pada device anda. Usahakan posisi wajah sesuai supaya dapat terdeteksi oleh sistem. Setelah wajah berhasil terdeteksi, sistem akan secara otomatis mengklasifikasikan ekspresi wajah anda.
